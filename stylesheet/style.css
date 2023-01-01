@@ -207,3 +207,7 @@ body {
     position: absolute;
     left: 10px;
   }
+.mountain
+{
+    max-width: 100%;
+}

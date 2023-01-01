@@ -3,6 +3,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    max-width: 100%;
 }
   
   h1 {
@@ -51,17 +52,20 @@ body {
     background-color: #9ff0f4;
     position: relative;
     padding-top: 100px;
+    max-width: 100%;
   }
   
   .middle-container {
     /* margin: 100px 0; */
     background-color: pink;
+    max-width: 100%;
     
   }
   
   .bottom-container {
     background-color: #66BFBF;
     padding: 50px 0 20px;
+    max-width: 100%;
   }
   
   .skill-row {
@@ -98,29 +102,37 @@ body {
   }
   .bird1
   {
-    width: 3%;
+    max-width: 100%;
+    height: 50px;
     position: relative;
     left: 400px;
+   
   }
   .bird2
   {
-    width: 3%;
+    max-width: 100%;
+    height: 50px;
     position:absolute;
     left: 100px;
+    
   }
   .bird3
   {
-    width: 3%;
+    max-width: 100%;
+    height: 50px;
     position: relative;
     left: 500px;
     top: 150px;
+    
   }
   .bird4
   {
-    width: 3%;
+    max-width: 100%;
+    height: 50px;
     position:absolute;
     left: 200px;
     top: 600px;
+ 
   }
   
   .bottom-cloud {
@@ -207,7 +219,8 @@ body {
     position: absolute;
     left: 10px;
   }
-.mountain
-{
+  .mountain
+  {
     max-width: 100%;
-}
+  }
+  
